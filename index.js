@@ -1,21 +1,9 @@
-const fs = require("fs");
 const rules = require("./lib/rules");
-const path = require("path");
-
-const packageJson = fs.readFileSync(
-  path.join(__dirname, "package.json"),
-  "utf8"
-);
-const pkg = JSON.parse(packageJson);
 
 const plugin = {
-  meta: {
-    name: pkg.name,
-    version: pkg.version,
-  },
-  rules,
-  configs: {},
-  processtors: {},
+  rules, // 룰을 정의
+  configs: {}, // 사용자가 구성할 수 있는 설정들
+  processors: {}, // 파일 전처리기 등
 };
 
 module.exports = plugin;
