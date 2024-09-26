@@ -1,7 +1,7 @@
 const fs = require("fs");
-const rules = require("./rules");
+const rules = require("./lib/rules");
 const pkg = JSON.parse(
-  fs.readFileSync(new URL("../package.json", import.meta.url), "utf8")
+  fs.readFileSync(new URL("./package.json", import.meta.url), "utf8")
 );
 
 const plugin = {
