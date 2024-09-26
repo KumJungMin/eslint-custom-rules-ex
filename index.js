@@ -1,7 +1,11 @@
 const rules = require("./lib/rules");
 
 const plugin = {
-  rules, // 룰을 정의
+  rules,
+  rulesConfig: {
+    "no-object-hasown": 2,
+    "no-console": 2,
+  },
 };
 
 module.exports = plugin;
