@@ -15,6 +15,11 @@
     "@eslint/eslintrc": "^3.1.0",
     "@types/node": "^22.7.2",
     "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
     "mocha": "^10.7.3"
+  },
+  "resolutions": {
+    "eslint": "^8.0.0"
   }
 }
