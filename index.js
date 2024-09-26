@@ -1,6 +1,8 @@
-const rules = {
-  "no-object-hasown": require("./lib/rules/no-object-hasown"),
-  "no-console": require("./lib/rules/no-console"),
+const rules = require("./lib/rules");
+
+const plugin = {
+  rules, // 룰을 정의
+  processors: {}, // 파일 전처리기 등
 };
 
-module.exports = rules;
+module.exports = plugin;
