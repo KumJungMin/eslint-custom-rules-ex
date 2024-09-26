@@ -17,4 +17,7 @@ npm i https://github.com/KumJungMin/eslint-custom-rules-ex
 ```
 
 ### 3. 결과 예시
+```bash
+npx eslint .
+```
 <img width="1165" alt="스크린샷 2024-09-26 오후 11 16 05" src="https://github.com/user-attachments/assets/8b6a5a52-d536-4842-857b-52601c9c6d31">
