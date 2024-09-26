@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-plugin-react": "^7.35.0",
     "fs": "^0.0.1-security"
   },
   "devDependencies": {
