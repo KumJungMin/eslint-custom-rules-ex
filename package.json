@@ -1,0 +1,20 @@
+{
+  "name": "my-eslint-plugin",
+  "version": "1.0.0",
+  "description": "The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@types/node": "^22.7.2",
+    "eslint": "^9.11.1",
+    "mocha": "^10.7.3"
+  }
+}
