@@ -1,11 +1,11 @@
+const config = require('./config')
 const { RuleTester } = require("eslint");
+
+
 const rule = require("../lib/rules/no-object-hasown");
 
-const ruleTester = new RuleTester({
-  parserOptions: {
-    ecmaVersion: 2015,
-  },
-});
+const ruleTester = new RuleTester(config);
+
 
 ruleTester.run("no-object-hasown", rule, {
   valid: [
